@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a,Square,Cube;
+    printf("Enter the value for a:\n",a);
+    scanf("%d",&a);
+    Square=a*a;
+    Cube=a*a*a;
+    printf("The Square and the cube of the value is:%d %d",Square,Cube);
+    return 0;
+}
